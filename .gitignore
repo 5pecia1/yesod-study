@@ -122,3 +122,29 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/git,vim,windows,haskell,intellij+all
+
+# Start Yesod
+*~
+*.o
+*.o_p
+*.hi
+dist/
+dist-stack/
+.stack-work
+*.swp
+client_session_key.aes
+cabal-dev/
+yesod/foobar/
+.hsenv/
+.cabal-sandbox/
+cabal.sandbox.config
+/vendor/
+.shelly/
+tarballs/
+
+# useful when mounting into docker
+.cabal
+.ghc
+.stackage
+.bash_history
+# End Yesod
